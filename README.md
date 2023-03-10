@@ -33,7 +33,7 @@ The engagement team has been hired to help with Vision Zero Chicago's mission by
 <figure>
     <img src="Illustrations/chicago_data.png"
          alt="Vision Zero"
-         width="400"
+         width="200"
          height="200">
 </figure>
 
@@ -49,8 +49,8 @@ We started with the people dataset, filtered for bike related crashes, combined 
 ## Data Paring and Binning
 
 <figure>
-    <img src="Illustrations/bikes_lake.png"
-         alt="Vision Zero"
+    <img src="Illustrations/bikes_lake.jpg"
+         alt="Data Paring"
          width="400"
          height="200">
 </figure>
@@ -64,7 +64,7 @@ For features that contained characteristic data of the crash, there were many va
 ## Targeting and Sample Imbalance
 
 <figure>
-    <img src="Illustrations/bikes_lake.png"
+    <img src="Illustrations/bikes_chicago_morning.jpg"
          alt="Vision Zero"
          width="400"
          height="200">
