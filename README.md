@@ -3,7 +3,7 @@
 ## *Predicting severity of bike crashes with Machine Learning Models*
 
 <figure>
-    <img src="chicago-skyline.jpg"
+    <img src="Illustrations/chicago-skyline.jpg"
          alt="Chicago Skyline"
          width="400"
          height="200">
@@ -16,7 +16,7 @@ Date: 3/10/2023
 ## Stakeholder: Vision Zero Chicago
 
 <figure>
-    <img src="vision_zero.png"
+    <img src="Illustrations/vision_zero.png"
          alt="Vision Zero"
          width="400"
          height="200">
@@ -31,7 +31,7 @@ The engagement team has been hired to help with Vision Zero Chicago's mission by
 ## Data Overview and Filtering
 
 <figure>
-    <img src="chicago_data.png"
+    <img src="Illustrations/chicago_data.png"
          alt="Vision Zero"
          width="400"
          height="200">
@@ -49,7 +49,7 @@ We started with the people dataset, filtered for bike related crashes, combined 
 ## Data Paring and Binning
 
 <figure>
-    <img src="bikes_lake.png"
+    <img src="Illustrations/bikes_lake.png"
          alt="Vision Zero"
          width="400"
          height="200">
@@ -64,7 +64,7 @@ For features that contained characteristic data of the crash, there were many va
 ## Targeting and Sample Imbalance
 
 <figure>
-    <img src="bikes_lake.png"
+    <img src="Illustrations/bikes_lake.png"
          alt="Vision Zero"
          width="400"
          height="200">
