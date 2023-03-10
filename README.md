@@ -18,7 +18,7 @@ Date: 3/10/2023
 <figure>
     <img src="Illustrations/vision_zero.png"
          alt="Vision Zero"
-         width="400"
+         width="200"
          height="200">
 </figure>
 
@@ -31,7 +31,7 @@ The engagement team has been hired to help with Vision Zero Chicago's mission by
 ## Data Overview and Filtering
 
 <figure>
-    <img src="Illustrations/chicago_data.png"
+    <img src="Illustrations/chicago_data"
          alt="Vision Zero"
          width="200"
          height="200">
@@ -64,7 +64,7 @@ For features that contained characteristic data of the crash, there were many va
 ## Targeting and Sample Imbalance
 
 <figure>
-    <img src="Illustrations/bikes_chicago_morning.jpg"
+    <img src="Illustrations/bikes_chicago_morning.jpeg"
          alt="Vision Zero"
          width="400"
          height="200">
