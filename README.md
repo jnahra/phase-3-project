@@ -76,15 +76,15 @@ Upon inspection of our target, we noted that our target information was greatly 
 
 ## Machine Learning Pipeline
 
-Once the data was combined, merged, and cleaned, the engagement team then moved on to modeling. Once the train_test_split was performed on the data, our pipeline was as follows:
+Once the train_test_split was performed on the data, our pipeline was as follows:
 
-1. One Hot Encoding multi categorical columns
-3. Undersampling the majority,
-4. Fitting the information on models and evaluating the recall
+1. One Hot Encoding multi-categorical columns
+3. Undersampling the majority class in the training set,
+4. Fitting the models on the train set and evaluating the recall on both the train and test sets
 
-Our key metric was recalled, as our target was more sensitive to false negatives. We would much prefer the data to be more conservative when it comes to classifying characteristics of a bike injury as we would not want an injury to be classified as nonsevere when in fact it was severe.
+Our key metric was recall, as our focus was to minimize false negatives (failing to predict severe injuries).
 
-We utilized a decision tree, random forest, and logistic regression on our data. The decision tree model returned the highest recall at around 54%.
+We utilized decision tree, random forest, and logistic regression models. The random forest model returned the highest recall on the test set and during cross-validation at around 54% and 52%, respectively.
 
 ## Results
 
@@ -92,13 +92,13 @@ Our results pointed us to five crash characteristics that contribute to a crash 
 
 1. Driver impairment
 2. Age
-3. Posted limit
+3. Posted speed limit
 4. Safe biker action
 5. Time of day
 
 ## Repo Structure
 
-This is the README of the project. The repo contains our technical jupyter notebook (index.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
+This is the README of the project. The repo contains our technical jupyter notebook (final_notebook.ipynb) which shows the code used to prepare, clean, and model the data. Our final non-technical presentation can be seen at presentation.pdf
 
 
 
