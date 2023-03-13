@@ -19,7 +19,7 @@ Date: 3/10/2023
     <img src="Illustrations/vision_zero.png"
          alt="Vision Zero"
          width="450"
-         height="175">
+         height="150">
 </figure>
 
 Vision Zero Chicago (VZC) is the commitment and approach to eliminating fatalities and serious injuries from traffic crashes.
@@ -34,7 +34,7 @@ The engagement team has been hired to help with Vision Zero Chicago's mission by
     <img src="Illustrations/chicago_data"
          alt="Vision Zero"
          width="450"
-         height="200">
+         height="150">
 </figure>
 
 The data we used is from the Chicago Data Portal, which shows information about each traffic crash on city streets within the City of Chicago limits and under the jurisdiction of Chicago Police Department (CPD).
