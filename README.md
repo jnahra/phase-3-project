@@ -86,7 +86,7 @@ Once the data was combined, merged, and cleaned, the engagement team then moved 
 
 Our key metric was recalled, as our target was more sensitive to false negatives. We would much prefer the data to be more conservative when it comes to classifying characteristics of a bike injury as we would not want an injury to be classified as nonsevere when in fact it was severe.
 
-We utilized a decision tree, random forest, and logistic regression on our data. The decision tree model returned the highest recall at around 64%.
+We utilized a decision tree, random forest, and logistic regression on our data. The decision tree model returned the highest recall at around 54%.
 
 ## Results
 
