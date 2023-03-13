@@ -70,7 +70,7 @@ For features that contained characteristic data of the crash, many values needed
          height="200">
 </figure>
 
-For our target, we focused on the INJURY_CLASSIFICATION feature from the people dataset. Our predictive target would be binary and classified as a 1 or 0, with 1 being a severe injury (incapacitating and above) and a not severe injury (anything below an incapacitating injury).
+For our target, we focused on the INJURY_CLASSIFICATION feature from the people dataset. Our predictive target would be binary and classified as a 1 or 0, with 1 representing a severe injury (incapacitating and above) and 0 representing a non-severe injury (anything less than an incapacitating injury).
 
 Upon inspection of our target, we noted that our target information was greatly imbalanced towards non-severe injuries. This makes sense, as the majority of bike crashes would be simple scrapes and bumps from bikes into cars.
 
