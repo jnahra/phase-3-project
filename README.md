@@ -72,9 +72,7 @@ For features that contained characteristic data of the crash, many values needed
 
 For our target, we focused on the INJURY_CLASSIFICATION feature from the people dataset. Our predictive target would be binary and classified as a 1 or 0, with 1 representing a severe injury (incapacitating and above) and 0 representing a non-severe injury (anything less than an incapacitating injury).
 
-Upon inspection of our target, we noted that our target information was greatly imbalanced towards non-severe injuries. This makes sense, as the majority of bike crashes would be simple scrapes and bumps from bikes into cars.
-
-To remedy this, we undersampled the majority in order to balance out our target during our modeling pipeline.
+Upon inspection of our target, we noted that our target information was greatly imbalanced towards non-severe injuries. To remedy this, we undersampled the majority class in order to balance our target for modeling, which rely on more balanced target variables.
 
 ## Machine Learning Pipeline
 
