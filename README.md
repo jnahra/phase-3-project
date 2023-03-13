@@ -70,7 +70,7 @@ For features that contained characteristic data of the crash, many values needed
          height="200">
 </figure>
 
-For our target, we focused on the INJURY_CLASSIFICATION feature from the people dataset. Our predictive target would be binary and classified as a 1 or 0, with 1 representing a severe injury (incapacitating and above) and 0 representing a non-severe injury (anything less than an incapacitating injury).
+For our target, we focused on the INJURY_CLASSIFICATION feature from the people dataset. Our predictive target was binary and classified as a 1 or 0, with 1 representing a severe injury (incapacitating and above) and 0 representing a non-severe injury (anything less than an incapacitating injury).
 
 Upon inspection of our target, we noted that our target information was greatly imbalanced towards non-severe injuries. To remedy this, we undersampled the majority class in order to balance our target for modeling, which rely on more balanced target variables.
 
@@ -91,10 +91,10 @@ We utilized decision tree, random forest, and logistic regression models. The ra
 Our results pointed us to five crash characteristics that contribute to a crash that results in a severe injury:
 
 1. Driver impairment
-2. Age
-3. Posted speed limit
-4. Safe biker action
-5. Time of day
+2. Age (Elderly)
+3. Posted speed limit (Above 30 mph)
+4. Unsafe biker action
+5. Time of day (Early Morning/Night)
 
 ## Repo Structure
 
