@@ -18,7 +18,7 @@ Date: 3/10/2023
 <figure>
     <img src="Illustrations/vision_zero.png"
          alt="Vision Zero"
-         width="800"
+         width="600"
          height="200">
 </figure>
 
@@ -33,7 +33,7 @@ The engagement team has been hired to help with Vision Zero Chicago's mission by
 <figure>
     <img src="Illustrations/chicago_data"
          alt="Vision Zero"
-         width="800"
+         width="600"
          height="200">
 </figure>
 
