@@ -59,7 +59,7 @@ After our data were combined and filtered for bike-related accidents, we perform
 
 Certain columns with a very high amount of blank information were dropped, as the engagement team could not realistically impute the missing values given the variety and scarcity of existing values.
 
-For features that contained characteristic data of the crash, many values needed to be binned so our modeling could more readily determine characteristics that contributed to severe injuries. For example, 'PEDPEAL_ACTIONS' ranged from things such as walking in a crosswalk to biking against traffic; these were binned as 'Safe' and 'Unsafe' actions to generalize the data for modeling.
+For features that contained characteristic data of the crash, many values needed to be binned so our modeling could more readily determine characteristics that contributed to severe injuries. For example, 'PEDPEDAL_ACTIONS' ranged from things such as walking in a crosswalk to biking against traffic; these were binned as 'Safe' and 'Unsafe' actions to generalize the data for modeling.
 
 ## Targeting and Sample Imbalance
 
